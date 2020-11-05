@@ -5,13 +5,12 @@ package sec06.exam01;
 public class AccSum02Dowhile1 {
 	public static void main(String[] args) {
 		int sum = 0, i=0;
-		int cnt;
-		cnt=10;
+		int cnt=10;
 		do{
-			cnt++;
 			i=i+1;
 			sum = sum+i;
 			System.out.printf("cnt=%3d, i=%2d, sum=%3d\n", cnt, i, sum); 		
+			cnt--;
 		}while( cnt>0); // while( cnt>=1); while( cnt !=0) 같은 의미
 		System.out.printf("====반복문종료=====\n");
 		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);
