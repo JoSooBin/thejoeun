@@ -3,17 +3,17 @@ package packtest;
 public class Hello01 {
 
 	public static void main(String[] args) {
-		/*System.out.printf("Hello,\t \"j\"ava1 \n");
+		System.out.printf("Hello,\t \"j\"ava1 \n");//큰 따움표 작은따움표 살리기
 		System.out.printf("c\\workex Hello, \'j\'ava1 \n");
 		System.out.printf("Hello, java1 \n");
 		System.out.printf("Hello, java1 \n");
 		
 		System.out.printf("Hello, java2 ");
 		System.out.println("Hello, java3 ");
-		System.out.print("Hello, java4 ");
+		System.out.print("Hello, java4 "); //printf,println,print의 차이
 		System.out.print("------------------------------ ");
 		
-		int num = 65;
+		/*int num = 65;
 		System.out.printf("10진수=%d, 16진수=%#X, 문자=%c \n", num,num,num);
 		num = num+1; //num++;, ++num;, num+=1; 다 동일
 		System.out.printf("10진수=%d, 16진수=%#X, 문자=%c \n", num,num,num);
