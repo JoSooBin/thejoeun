@@ -1,5 +1,5 @@
 package sec06.exam01;
-
+//구구단 출력
 public class NestedLoopWhile {
 
 	public static void main(String[] args) {
