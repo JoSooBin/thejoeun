@@ -1,19 +1,19 @@
 package sec06.exam01;
-/*Sum=1+2+3+4+...+NUM   NUM(10)Ç×±îÁöÀÇ ÇÕ
+/*Sum=1+2+3+4+...+NUM   NUM(10)í•­ê¹Œì§€ì˜ í•©
  i   1  2  3  4
       1  1  1*/
 public class AccSum01 {
 	public static void main(String[] args) {
-		int sum = 0, i=0; //±âÁØÄ¡¸¦ °úÁ¤À» »ı°¢ÇÏ°í ³ªÁß¿¡ Àâ¾Æ¶ó
+		int sum = 0, i=0; //ê¸°ì¤€ì¹˜ë¥¼ ê³¼ì •ì„ ìƒê°í•˜ê³  ë‚˜ì¤‘ì— ì¡ì•„ë¼
 		int cnt;
 		for(cnt=1; cnt<=10; cnt++) {
 			i=i+1;
-			sum = sum+i; //ÄÄÇ»ÅÍ°¡ °á°ú¸¦ ³ªÅ¸³»±âÀü¿¡ °úÁ¤Àº °á°úÄ¡ Àü¿¡ ÀÛ¼ºÇÏ´Â°ÍÀÌ ÁÁÀ½.
-			System.out.printf("cnt=%3d, i=%2d, sum=%3d\n", cnt, i, sum); //%2d´Â ÀÚ¸®¼ö¸¦ µÎÀÚ¸® ÁØ°Å. ¿À¸¥ÂÊ ±âÁØÀ¸·Î ÀÚ¸®°¡ ÀâÈû
+			sum = sum+i; //ì»´í“¨í„°ê°€ ê²°ê³¼ë¥¼ ë‚˜íƒ€ë‚´ê¸°ì „ì— ê³¼ì •ì€ ê²°ê³¼ì¹˜ ì „ì— ì‘ì„±í•˜ëŠ”ê²ƒì´ ì¢‹ìŒ.
+			System.out.printf("cnt=%3d, i=%2d, sum=%3d\n", cnt, i, sum); //%2dëŠ” ìë¦¬ìˆ˜ë¥¼ ë‘ìë¦¬ ì¤€ê±°. ì˜¤ë¥¸ìª½ ê¸°ì¤€ìœ¼ë¡œ ìë¦¬ê°€ ì¡í˜
 			
 		}
-		System.out.printf("====¹İº¹¹®Á¾·á=====\n");
-		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);
+		System.out.printf("====ë°˜ë³µë¬¸ì¢…ë£Œ=====\n");
+		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);//cntëŠ” 11ë¡œ ë¹ 
 	}
 	
 }
