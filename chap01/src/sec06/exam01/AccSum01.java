@@ -13,7 +13,7 @@ public class AccSum01 {
 			
 		}
 		System.out.printf("====반복문종료=====\n");
-		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);//cnt는 11로 빠
+		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);
 	}
 	
 }
