@@ -9,7 +9,7 @@ public class GooGoodan {
 		
 		for(dan = 2; dan<=9; dan++) {
 				for(times = st; times != end+sw; times=times+sw) { 
-					//for(times = end; times != 1+(-sw); times=times+(-sw)) { //13,14줄이 같다는것을 위한 표현하기위한 표현법. 이 줄은 없어야 맞는거.
+					//for(times = end; times != 1+(-sw); times=times+(-sw)) { //13,14줄이 같다는것을 위한 표현하기위한 표현법. 이 줄은 없어야 맞음.
 						value = dan*times;
 						System.out.println(dan + "X" +times + "=" + value);
 					}
