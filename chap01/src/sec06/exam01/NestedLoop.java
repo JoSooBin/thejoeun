@@ -12,13 +12,13 @@ public class NestedLoop {
 			System.out.println(dan + "X" +times + "=" + value);
 			}
 			System.out.printf("====="+dan+"단종료=====\n");
-			System.out.println(dan + "X" +times + "=" + value);
-			System.out.println(dan + "X" +times + "=" + dan*times);
+			System.out.println(dan + "X" +times + "=" + value); //마지막value값이 출력.2X10=18
+			System.out.println(dan + "X" +times + "=" + dan*times);//마지막 dan,times이 연산돼서 출력.2X10=20
 			System.out.printf("===============\n");
 		}
 		System.out.printf("=====구구단종료=====\n");
-		System.out.println(dan + "X" +times + "=" + value);
-		System.out.println(dan + "X" +times + "=" + dan*times);
+		System.out.println(dan + "X" +times + "=" + value); //10X10=81
+		System.out.println(dan + "X" +times + "=" + dan*times);//10X10=100
 		System.out.printf("===============\n");
 	}
 
