@@ -4,7 +4,7 @@ package sec06.exam01;
       1  1  1*/
 public class AccSum01 {
 	public static void main(String[] args) {
-		int sum = 0, i=0; //기준치를 과정을 생각하고 나중에 잡아라
+		int sum = 0, i=0; //기준치를 과정을 생각하고 나중에 잡아라!!!
 		int cnt;
 		for(cnt=1; cnt<=10; cnt++) {
 			i=i+1;
@@ -13,7 +13,7 @@ public class AccSum01 {
 			
 		}
 		System.out.printf("====반복문종료=====\n");
-		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);
+		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);//cnt는 11로 빠져나감.cnt=11, i=10, sum= 55
 	}
 	
 }
