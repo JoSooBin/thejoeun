@@ -2,6 +2,7 @@ package sec06.exam01;
 /*Sum=1+2+3+4+...+NUM   NUM(10)항까지의 합
  i   1  2  3  4
       1  1  1*/
+
 public class AccSum01 {
 	public static void main(String[] args) {
 		int sum = 0, i=0; //기준치를 과정을 생각하고 나중에 잡아라!!!
