@@ -1,5 +1,6 @@
 package sec06.exam01;
 //짝수단는 1부터 홀수단은 9부터 출력하는 구구단. if문 없이 for문 중첩으로 표현
+
 public class GooGoodan {
 	public static void main(String[] args) {
 		int dan = 0;
