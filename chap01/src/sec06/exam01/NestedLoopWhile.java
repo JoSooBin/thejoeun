@@ -16,7 +16,6 @@ public class NestedLoopWhile {
 				times++;
 			}while(times<=9) ;
 			System.out.printf("====="+dan+"´ÜÁ¾·á=====\n");
-			
 			dan++;
 		}while(dan<=9);
 	}
