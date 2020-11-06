@@ -3,6 +3,7 @@ package sec06.exam01;
  i   1  2  3  4
       1  1  1*/
 public class AccSum01while {
+	
 	public static void main(String[] args) {
 		int sum = 0, i=0;
 		int cnt;
