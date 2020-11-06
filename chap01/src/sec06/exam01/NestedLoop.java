@@ -1,5 +1,5 @@
 package sec06.exam01;
-
+//구구단 변수 지정에 따른 빠져나가는 값 확인ㄴ
 public class NestedLoop {
 
 	public static void main(String[] args) {
@@ -21,5 +21,4 @@ public class NestedLoop {
 		System.out.println(dan + "X" +times + "=" + dan*times);//10X10=100
 		System.out.printf("===============\n");
 	}
-
 }
