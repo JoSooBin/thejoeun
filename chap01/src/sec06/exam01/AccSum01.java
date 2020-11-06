@@ -14,5 +14,4 @@ public class AccSum01 {
 		System.out.printf("====반복문종료=====\n");
 		System.out.printf("cnt=%2d, i=%2d, sum=%3d\n", cnt, i, sum);//cnt는 11로 빠져나감.cnt=11, i=10, sum= 55
 	}
-	
 }
