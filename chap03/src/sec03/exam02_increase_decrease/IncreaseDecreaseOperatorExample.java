@@ -29,7 +29,6 @@ public class IncreaseDecreaseOperatorExample {
 		z = b++;
 		System.out.println("z=" + z);
 		System.out.println("x=" + b);
-		
 		System.out.println("-----------------------");	
 		
 		z = ++x + y++ ;//x와 y 공간은 하나
