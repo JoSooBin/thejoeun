@@ -3,7 +3,6 @@ package sec03.exam01_sign;
 i   1  2  3  4
      1  1  1*/
 public class AddExam02 {
-
 	public static void main(String[] args) {
 		int sum =0, i=0, cnt;
 		
