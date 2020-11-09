@@ -1,4 +1,5 @@
 package sec03.exam04_bit_reverse;
+
 public class BitReverseOperatorExample {
 	public static void main(String[] args) {
 		int v1 = 10;
