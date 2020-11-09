@@ -1,7 +1,6 @@
 package sec03.exam01_sign;
 //Sum= (1*10)+(2*9)+(3*8)+...+(10*1)
 public class AddExam04 {
-
 	public static void main(String[] args) {
 		int sum =0, i=0, j=11, cnt, m;
 		
