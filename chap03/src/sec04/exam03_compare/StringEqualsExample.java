@@ -1,4 +1,5 @@
 package sec04.exam03_compare;
+
 public class StringEqualsExample {
 	public static void main(String[] args) {
 		String strVar1 = "Ω≈πŒ√∂";
