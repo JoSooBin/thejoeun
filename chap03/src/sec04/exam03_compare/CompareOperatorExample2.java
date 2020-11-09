@@ -1,6 +1,7 @@
 package sec04.exam03_compare;
 
 public class CompareOperatorExample2 {
+	
 	public static void main(String[] args) {
 		int v2 = 1;
 		double v3 = 1.0;
