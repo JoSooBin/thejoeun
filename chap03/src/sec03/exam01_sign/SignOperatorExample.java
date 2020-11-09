@@ -12,7 +12,6 @@ public class SignOperatorExample {
 		//short result3 = -s;  //컴파일 에러 (java는 연산하려할때 무조건 int로 변환하려하므로 에러발생.)
 		int result3 = -s; 
 		System.out.println("result3=" + result3);
-
 	}
 }
 
