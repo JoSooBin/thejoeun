@@ -1,5 +1,4 @@
 package sec06.exam03_array_length;
-
 //석차구하기 for문. 자기자신과도 비교. 같은 비교 중복
 public class ArrayRankExample01 {
 	public static void main(String[] args) {
