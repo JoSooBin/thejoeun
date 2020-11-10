@@ -1,5 +1,5 @@
 package sec06.exam05_array_in_array;
-//�𷡽ð�
+//모래시계
 public class ArrayInArray7_7Example05 {
 	public static void main(String[] args) {	
 		
