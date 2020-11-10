@@ -1,5 +1,4 @@
 package sec06.exam03_array_length;
-
 //랜덤숫자 선택정렬. 비교 교환을 최소화
 public class ArrayBubbleSlectionExample01 {
 	public static void main(String[] args) {
