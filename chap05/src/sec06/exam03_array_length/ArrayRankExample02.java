@@ -1,6 +1,6 @@
 package sec06.exam03_array_length;
+//석차구하기 for문. 자기 자신 빼고 했던 비교 중복 제외하고 비교. 비교횟수: 4321.. 
 
-//석차구하기 for문. 자기 자신 빼고 했던 비교 중복 제외하고 비교 4321.. 
 public class ArrayRankExample02 {
 	public static void main(String[] args) {
 		int[] scores = { 83, 90, 87, 50, 88, 55, 75 };
