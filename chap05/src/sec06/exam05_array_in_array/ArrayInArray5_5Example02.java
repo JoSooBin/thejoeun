@@ -1,5 +1,6 @@
 package sec06.exam05_array_in_array;
 //직각삼각형 1234번
+
 public class ArrayInArray5_5Example02 {
 	public static void main(String[] args) {	
 		int n=0;
