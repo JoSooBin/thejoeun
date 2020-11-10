@@ -1,6 +1,6 @@
 package sec06.exam03_array_length;
-
 //석차구하기 선택정렬
+
 public class ArraySortSlectionExample01 {
 	public static void main(String[] args) {
 		int[] scores = { 83, 70, 87, 50, 88, 55, 75 };
