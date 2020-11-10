@@ -1,5 +1,6 @@
 package sec06.exam03_array_length;
 //배열의 길이
+
 public class ArrayLengthExample {
 	public static void main(String[] args) {
 		int[] scores = { 83, 90, 87, 50, 90 };
