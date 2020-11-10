@@ -1,5 +1,4 @@
 package sec06.exam03_array_length;
-
 import java.util.Scanner;
 
 //입력받은 숫자 선택정렬. 비교 교환을 최소화
