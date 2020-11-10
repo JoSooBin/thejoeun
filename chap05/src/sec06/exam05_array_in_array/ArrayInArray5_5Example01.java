@@ -1,5 +1,6 @@
 package sec06.exam05_array_in_array;
 //정사각형 만들기
+
 public class ArrayInArray5_5Example01 {
 	public static void main(String[] args) {	
 		int[][] arr1 = new int[5][5];
