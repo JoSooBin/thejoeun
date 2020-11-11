@@ -8,7 +8,7 @@ public class DalpeangIExample2 {
 		while(true) {
 			for(i=0; i<t; i++) {
 				n=n+1;
-				col+=sw; //행 변화, 열 고정
+				col+=sw; //행 고정, 열 변화
 				arr1[row][col]=n;	
 			}
 			t--;
@@ -16,7 +16,7 @@ public class DalpeangIExample2 {
 			
 			for(j=0; j<t; j++) {
 				n=n+1;
-				row+=sw; //열 고정,행 변화
+				row+=sw; //행 변화, 열 고정
 				arr1[row][col]=n;	
 			}
 			sw=-sw;
