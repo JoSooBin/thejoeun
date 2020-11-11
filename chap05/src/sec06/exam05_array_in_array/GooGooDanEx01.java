@@ -1,6 +1,5 @@
 package sec06.exam05_array_in_array;
 //구구단11월11일
-
 public class GooGooDanEx01 {
 	public static void main(String[] args) {
 		int dan, k=0, value=0;
