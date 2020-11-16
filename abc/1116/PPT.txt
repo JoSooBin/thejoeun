@@ -1,0 +1,3 @@
+https://docs.google.com/presentation/d/e/2PACX-1vSKm6nRxUlqeTKHQTyYB134L25Mik8S9nIEreztEdmDf28E-S88tmmnOgstYMbi0g/pub?start=false&loop=false&delayms=3000&slide=id.p1
+
+Intellij IEDA 아카데믹버전
