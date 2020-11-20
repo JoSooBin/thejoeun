@@ -1,0 +1,71 @@
+
+C언어 분기문의 종류:
+분기문 : 코드의 실행흐름을 전환시 사용
+break, continue, loop
+
+scanf()를 사용시 이전에 입력한 문자때문에
+다음 문자입력이 생략되는 것을 방지하려면?
+=> 키보드 입력버퍼를 비우면 됨
+=> fflush(stdin) 
+
+이스케이프 문자
+코드상에 특수문자를 표현할때 사용하는 방법
+=> \기호
+=> \n : 줄바꿈
+=> \t : 8칸띄우기 (탭)
+=> \b : beep, 삐소리 발생
+=> \" : " 를 출력
+=> \' : ' 를 출력
+=> \\ : \ 를 출력
+
+전역변수
+모듈화를 적용한 프로그래밍에는 별로 좋지 않음
+
+포인터변수의 크기 : 4byte
+char *p;
+
+포인터 변수 의미 파악하기
+int a = 4;
+int *p = &a;   // & : 변수의 주소를 의미
+printf(p);     // a변수의 주소 출력
+*p = 9;        // 4저장된 곳에 9를 저장함
+
+다음 코드가 작성되었을 경우 msg 포인터 변수에
+"hello" 대신 "world"를 대입하는 코드는?
+char *msg = "hello";
+=> msg = "world"; 
+// msg변수가 가리키는 위치에 world라는 문자열을 저장
+
+      
+구조체 정의
+struct hello {
+  int a;    // 구조체 멤버
+  char b;
+  char c;
+} world;
+
+struct *x = &world;
+구조체 멤버 b를 출력하고 싶으면?
+=> x.b, x->b
+
+공용체의 데이터 크기는? : 8byte
+크기가 큰 멤버의 타입을 공유
+union a {
+  char x;
+  double y;
+}
+
+매크로 함수 사용하기
+#define TAX(n) n*300
+#define FIND(n) (n)/2
+int main() {
+   printf("%d", TAX(4));
+   printf("%d", TAX(4+1)); //4+Tax(1)
+   printf("%d", FIND(2+1));
+   return 0;
+}
+
+사용자 정의 헤더 선언
+#include <stdio.h>
+#include "사용자지정.h"
+
