@@ -1,0 +1,22 @@
+테이블 생성 
+create table 테이블명(
+	컬럼명 스키마정의 제약조건,
+	컬럼명 스키마정의 제약조건,
+	...
+)
+
+char 고정길이. 검색에 용이
+varchar 가변길이, 공간절약
+
+datetime 날짜와 시각 저장시 사용
+unique key - 대체키를 지정하는 키워드. 유일성을 가지며 기본키와 달리 null값이 허용됨
+
+--문제--
+url.kr/ZUnG4B
+
+04.데이터베이스SQL.pptx - Google 프레젠테이션
+https://docs.google.com/presentation/d/e/2PACX-1vRwsUhz4jp8MrmVcclrufYJiF4mzRf3m71GXhz4MLGlhi7FeIaQJzpFbeY07dfaVg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+
+
+03.데이터베이스개론.pptx - Google 프레젠테이션
+https://docs.google.com/presentation/d/e/2PACX-1vSpdGAIO_V0QFM859KkT8qQLFd46ZC9bL3H7WOZvDu189WxMs3IxQ5RnYvXQsr8IQ/pub?start=false&loop=false&delayms=3000&slide=id.p1

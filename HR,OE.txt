@@ -1,0 +1,64 @@
+-- REGIONS 테이블 생성
+CREATE table REGIONS (
+	REGION_ID int primary key ,
+	REGION_NAME varchar(255)
+);
+
+-- COUNTRIES 테이블 생성
+CREATE table COUNTRIES (
+	REGION_ID int ,
+	COUNTRY_NAME varchar(255),
+	COUNTRY_ID int primary key,
+	foreign key (REGION_ID) references REGIONS (REGION_ID)
+);
+
+-- LOCATIONS 테이블 생성
+CREATE table LOCATIONS (
+	LOCATION_ID int primary key,
+	STREET_ADDRESS varchar(255),
+	POSTAL_CODE varchar(255),
+	CITY varchar(255),
+	STATE_PROVINCE varchar(255), 
+	COUNTRY_ID int ,
+	foreign key (COUNTRY_ID) references COUNTRIES (COUNTRY_ID)
+);
+
+-- DEPARTMENTS 테이블 생성
+CREATE table DEPARTMENTS (
+	LOCATION_ID int,
+ 	DEPARTMENT_ID int primary key,	
+ 	DEPARTMENT_NAME varchar(255),
+ 	MANAGER_ID int,
+	foreign key (LOCATION_ID) references LOCATIONS (LOCATION_ID)
+);
+
+-- JOBS 테이블 생성
+CREATE table JOBS (
+	JOB_TITLE varchar(255),
+ 	JOB_ID varchar(255) primary key,	
+ 	MIN_SALARY int,
+ 	MAX_SALARY int
+);
+
+-- EMPLOYEES 테이블 생성
+CREATE table EMPLOYEES (
+	FIRST_NAME varchar(255),
+ 	LAST_NAME varchar(255),	
+ 	EMAIL varchar(255),	
+ 	PHONE_NUMBER varchar(255),	
+ 	HIRE_DATE datetime,
+ 	JOB_ID varchar(255),
+ 	SALARY int,
+ 	COMMISSION_PCT varchar(255),
+ 	MANAGER_ID int,
+ 	DEPARTMENT_ID int,
+ 	EMPLOYEE_ID int,
+ 	foreign key (JOB_ID) references JOBS (JOB_ID)
+);
+-- JOBS 테이블 생성
+CREATE table JOBS (
+	JOB_TITLE varchar(255),
+ 	JOB_ID varchar(255) primary key,	
+ 	MIN_SALARY int,
+ 	MAX_SALARY int
+); 
